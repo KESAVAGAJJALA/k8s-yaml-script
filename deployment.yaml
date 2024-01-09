@@ -30,5 +30,4 @@ spec:
   ports:
     - protocol: TCP
       port: 80  # Port on which the service will be exposed
-      targetPort: 80  # Port on which your Python app is running in the container
   type: LoadBalancer  # Expose the service outside the Kubernetes clust
